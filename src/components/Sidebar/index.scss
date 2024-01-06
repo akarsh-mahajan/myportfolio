@@ -11,7 +11,7 @@
         padding: 8px 0;
         img{
             display: block;
-            width: 24px;
+            width: 40px;
             margin: 8px auto;
             height: auto;
         }
@@ -80,6 +80,24 @@ nav {
         }
     }
 
+    a.skills-link{
+        &:after{
+          content: 'SKILLS';  
+        }
+    }
+
+    a.experience-link{
+        &:after{
+          content: 'EXP';  
+        }
+    }
+
+    a.projects-link{
+        &:after{
+          content: 'PROJECTS';  
+        }
+    }
+
     a.contact-link{
         &:after{
           content: 'CONTACT';  
@@ -92,4 +110,29 @@ nav {
         }
     }
 }
+
+ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li{
+        a{
+            padding: 7px 0;
+            display: block;
+            font-size: 15px;
+            line-height: 16px;
+        
+            &:hover svg{
+                color: #ffd700;
+            }
+        }
+    }
+}
+
 
