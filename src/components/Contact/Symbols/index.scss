@@ -1,0 +1,70 @@
+
+.leetcode-logo{
+    width: 154px;
+    height: auto;
+    z-index: 2;
+    right: 10%;
+    position: absolute;
+    top: 23.75%;
+    opacity: 0;
+    animation: fadeInDown 0.5s 1s forwards;
+    border-radius: 20px;
+
+    &:hover{
+      box-shadow: 0 0 20px 0px lightyellow;
+      cursor: pointer;
+    }
+}
+
+.linkedin-logo{
+    width: 156px;
+    height: auto;
+    z-index: 2;
+    right: 23.5%;
+    position: absolute;
+    top: 23.5%;
+    opacity: 0;
+    animation: fadeInLeft 0.5s 2s forwards;
+    border-radius: 20px;
+
+    &:hover{
+      box-shadow: 0 0 20px 0px lightyellow;
+      cursor: pointer;
+    }
+}
+
+.git-logo{
+    width: 156px;
+    height: auto;
+    z-index: 2;
+    right: 23.5%;
+    position: absolute;
+    top: 55%;
+    opacity: 0;
+    animation: fadeInUp 0.5s 3s forwards;
+    border-radius: 20px;
+
+    &:hover{
+      box-shadow: 0 0 20px 0px lightyellow;
+      cursor: pointer;
+    }
+}
+
+
+.gfg-logo{
+  width: 152px;
+  height: auto;
+  z-index: 2;
+  right: 10%;
+  position: absolute;
+  top: 55%;
+  opacity: 0;
+  animation: fadeInRight 0.5s 4s forwards;
+  border-radius: 20px;
+
+  &:hover{
+    box-shadow: 0 0 20px 0px lightyellow;
+    cursor: pointer;
+  }
+}
+

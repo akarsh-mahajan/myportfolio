@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 import LogoS from '../../../assets/images/logopreload.png';
 import LogSvg from '../../../assets/images/logosvg.png';
-import { useRef } from 'react';
+// import { useRef } from 'react';
 import './index.scss'; // Assuming this file contains styles for the logo
 
 function Logo() {
 //   const solidLogoRef = useRef();
-  const [showSvg, setShowSvg] = useState(true);
+//   const [showSvg, setShowSvg] = useState(true);
 
 //   useEffect(() => {
 //     const timer = setTimeout(() => {
