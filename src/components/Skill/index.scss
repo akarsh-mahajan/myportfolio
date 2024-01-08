@@ -1,7 +1,20 @@
-.health-ngo{
-    position: absolute;
-  left: 100px; /* Adjust the left value as needed */
-  top: 50%; /* Adjust the top value as needed */
-  transform: translateY(-50%);
-}
+.contact-button{
+  color: #ffd700;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid #ffd700;
+  margin-top: 300px;
+  // bottom: 20%;
+  float: left;
+  animation: fadeIn 1s 1.8s backwards;
+  white-space: nowrap;
 
+  &:hover{
+      background: #ffd700;
+      color: #333;
+  }
+}
