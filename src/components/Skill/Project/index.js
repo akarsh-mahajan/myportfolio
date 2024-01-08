@@ -11,7 +11,7 @@ function Card() {
             <div className="card-content">
               <div className="card-title">Health NGO Website</div>
               {/* <div className="card-description">{description}</div> */}
-              <a href='healthumbrella.org' className="card-link" target="_blank" rel="noopener noreferrer">
+              <a href='http://healthumbrella.org' className="card-link" target="_blank" rel="noopener noreferrer">
                 Website Link
               </a>
               <a href='https://github.com/healthumbrella' className="card-link" target="_blank" rel="noopener noreferrer">
