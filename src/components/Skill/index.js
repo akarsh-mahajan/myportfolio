@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import Sphere from './Sphere'
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders';
+import Card from './Card';
+// import HUF from '../../assets/images/HUF.jpg'
+import './index.scss'
 
 function Skills() {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -22,7 +25,7 @@ function Skills() {
                     idx = {15}
                 />
             </h1>
-
+            <Card />
         </div>
           <Sphere />
       </div>

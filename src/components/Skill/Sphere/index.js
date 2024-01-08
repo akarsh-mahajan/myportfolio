@@ -21,7 +21,7 @@ const Sphere = () => {
         "Python",
         "Django",
         "MySQL",
-        "GIT",
+        "Problem Solving",
         "GitHub",
       ];
 
