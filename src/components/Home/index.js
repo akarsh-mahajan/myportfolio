@@ -42,6 +42,10 @@ function Home() {
             </h1>
             <h2>Dynamic Engineer | Transforming Challenges into Solutions </h2>
             <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+            <a href="https://drive.google.com/drive/folders/1hUReKpHj1XKvoMI8oy_JQcsYzf_DYsB_?usp=sharing" 
+            target="_blank" rel="noreferrer" className='resume-button'>
+              RESUME
+            </a>
         </div>
         <Logo />
     </div>

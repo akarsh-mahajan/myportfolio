@@ -91,4 +91,27 @@
             color: #333;
         }
     }
+
+    .resume-button{
+        color: #ffd700;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: normal;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        left: 25%;
+        top: 76.65%;
+        position: absolute;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background: #ffd700;
+            color: #333;
+        }
+    }
 }
