@@ -6,6 +6,7 @@ import Card from './Project';
 import './index.scss'
 import { Link } from 'react-router-dom';
 import Skillset from './typeAnimation';
+// import Icons from './Icons';
 
 function Skills() {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -27,10 +28,16 @@ function Skills() {
               idx={15}
             />
           </h1>
-          <Card />
+          <Skillset />
+          {/* <div className='gif'>
+            <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"></img>
+          </div> */}
           <Link to="/contact" className='contact-button'>CONTACT ME</Link>
         </div>
-        <Skillset />
+        <div className='project'>
+          <Card />
+        </div>
+        {/* <Icons /> */}
         {/* <Sphere /> */}
         {/* <div className='skills-text'>
             <h6>C++</h6><h6>Python</h6><h6>Java</h6><h6>Django</h6><h6>MySQL</h6>

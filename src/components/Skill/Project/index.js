@@ -6,7 +6,7 @@ import aircraftgame from '../../../assets/images/aircraft3dgame.png'
 
 function Card() {
       return (
-        <div>
+        <div className='card'>
             <div className="healthNGO">
             <div className="card-image" style={{ backgroundImage: `url('${HUF}')` }}></div>
             <div className="card-content">
