@@ -18,7 +18,7 @@ function Contact() {
     e.preventDefault()
 
     emailjs
-        .sendForm('service_0on8pxk', 'template_doy97w1', form.current, 'PgQBSiv0xdn7wWlAA')
+        .sendForm('SERVICE_ID', 'TEMPLATE_ID', form.current, 'KEY')
         .then(
         () => {
             alert('Message successfully sent!')
