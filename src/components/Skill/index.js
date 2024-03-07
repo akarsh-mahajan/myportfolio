@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
 // import Sphere from './Sphere'
 import AnimatedLetters from '../AnimatedLetters'
-import Loader from 'react-loaders';
+
 import Card from './Project';
 import './index.scss'
 import { Link } from 'react-router-dom';
 import Skillset from './typeAnimation';
+import Loader from '../Loader/Loader';
 // import Icons from './Icons';
 
 function Skills() {
@@ -46,7 +47,7 @@ function Skills() {
             <h6>GitHub</h6><h6>REST APIs</h6> 
         </div> */}
       </div>
-      <Loader type="pacman" />
+      <Loader className='loader-active'/>
     </>
   );
 }

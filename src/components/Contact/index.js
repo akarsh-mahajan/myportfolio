@@ -1,4 +1,4 @@
-import Loader from 'react-loaders'
+import Loader from '../Loader/Loader'
 import './index.scss'
 import emailjs from '@emailjs/browser'
 import React, { useEffect, useRef, useState } from 'react'
@@ -69,7 +69,7 @@ function Contact() {
             </div>
             <Symbols />  
         </div>
-        <Loader type="pacman" />
+        <Loader/>
     </>
   )
 }

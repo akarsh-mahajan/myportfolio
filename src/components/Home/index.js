@@ -5,7 +5,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
 import './index.scss'
 import Logo from './Logo'
-import Loader from 'react-loaders'
+import Loader from '../Loader/Loader'
 function Home() {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['k', 'a' ,'r', 's', 'h', ',' ]
@@ -49,7 +49,7 @@ function Home() {
         </div>
         <Logo />
     </div>
-    <Loader type="pacman" />
+    <Loader/>
     </>
   );
 }
