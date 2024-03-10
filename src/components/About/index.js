@@ -33,8 +33,8 @@ function About() {
             </p>
             <p>
                 Currently pursuing B.Tech in Communication & Computer Engineering at LNMIIT. Proficient in C++, 
-                Java, MySQL, C, Matlab, Python, Django, HTML, CSS. Solid foundation in Data Structures, Algorithms,
-                OOP, Database Management, Operating Systems, and Computer Networks.
+                Java, MySQL, C, Matlab, Python, Django, ReactJS, HTML, CSS. Solid foundation in Data Structures, Algorithms,
+                OOPs, Database Management, Operating Systems, and Computer Networks.
             </p>
             <p>I am eager to bring my passion for innovation, strong technical skills, and practical experience to a dynamic IT environment.
             </p>
